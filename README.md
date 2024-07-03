@@ -15,5 +15,43 @@ This project aims to discover demographic and housing trends within the US real 
 ### Sources
 
 - **Demographic Data**: U.S. Census Bureau
-- **Housing Data**: Zillow, Redfin
-- **Economic Indicators**: Bureau of Economic Analysis (BEA)
+- **Housing Data**: U.S. Census Bureau
+
+## Methodology
+
+### 1. Data Preprocessing
+
+- Data cleaning and normalization, EDA
+- Handling missing values
+- PCA & Feature Engineering
+
+### 2. Predictive Modeling
+
+#### Boosted Regression Trees
+
+- Gradient Boosting
+- Hyperparameter tuning
+- Model evaluation (RMSE, MAE)
+
+#### Neural Networks
+
+- Deep learning model architecture
+- Training and validation
+- Performance metrics (accuracy, precision, recall)
+
+#### Model Performance Benchmarking
+- BRTs vs. NNs, with LR as benchmark
+
+### 3. Clustering Analysis
+
+- K-Means clustering
+- Identifying regional clusters with similar real estate trends
+
+## Tools and Technologies
+
+- **Python**: Core programming language
+- **Pandas**: Data manipulation and analysis
+- **Scikit-learn**: Machine learning library
+- **TensorFlow/Keras**: Deep learning framework
+- **Matplotlib/Seaborn/GeoPandas**: Data visualization
+- **Jupyter Notebook & Google Colaboratory**: Interactive coding environment
